@@ -1,0 +1,19 @@
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15%;
+}
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 15vh;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.title {
+		margin-top: 50%;
+	}
+}
